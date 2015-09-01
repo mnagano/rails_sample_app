@@ -5,6 +5,7 @@ ruby '2.1.6'
 gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', require: 'bcrypt'
 
 group :development, :test do
   gem 'sqlite3'
