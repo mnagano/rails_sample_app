@@ -5,7 +5,7 @@ ruby '2.1.6'
 gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
-gem 'bcrypt-ruby', require: 'bcrypt'
+gem 'bcrypt-ruby', '~> 3.1.0', require: 'bcrypt'
 
 group :development, :test do
   gem 'sqlite3'
@@ -20,7 +20,7 @@ end
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.1.0'
+  gem 'capybara'
   # Uncomment this line on OS X.
   # gem 'growl', '1.0.3'
 
